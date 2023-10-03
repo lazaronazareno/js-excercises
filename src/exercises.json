@@ -1,0 +1,60 @@
+{
+  "exercises": [
+    {
+      "id": 1,
+      "name": "Fibonacci",
+      "description": "Realizar un programa que pregunte al usuario un número y calcule el valor de su posición en la serie de Fibonacci. La serie de Fibonacci se define de la siguiente manera: Para el número 0 el resultado es 0 (el valor de la posición cero es cero) y para el 1 es 1, y para el resto de los números, el resultado es la suma de los dos números anteriores en la serie. Por ejemplo el valor en la serie para el número 2 es 1 ya que sumo los dos números anteriores en la lista (0 y 1), el de 6 es 8 debido a que los dos números que lo anteceden en la serie son 5 y 3, cuya suma es 8, y el de 13 es 233 porque 89 + 144 = 233.",
+      "exampleOutput": "F0,  F1,  F2,  F3,  F4,   F5,  F6,   F7,   F8,   F9,  F10,  F11,   F12,   F13  ... /n0    1    1    2    3    5    8     13    21    34    55    89    144    233  ...",
+      "code": "/src/exercises/1.js",
+      "verified": false
+    },
+    {
+      "id": 2,
+      "name": "Factorial",
+      "description": "Realizar un programa que pregunte al usuario un número y calcule el factorial de ese número (el factorial de un número se obtiene al multiplicar desde el 1 hasta ese número, por ejemplo el factorial de 3 = 1 * 2 * 3, el de 5 es 1 * 2 * 3 * 4 * 5, y en general factorial de n = 1*2*3*4*...*n). El programa permitirá ingresar números hasta que el usuario ingrese el número cero.",
+      "exampleOutput": "",
+      "code": "/src/exercises/2.js",
+      "verified": false
+    },
+    {
+      "id": 3,
+      "name": "Piramide",
+      "description": "Realice un algoritmo que permita al usuario ingresar un número por teclado y muestre por pantalla una pirámide de la siguiente forma, en la cual la fila correspondiente al número ingresado sea la que tiene la cúspide.",
+      "exampleOutput": "Por ejemplo si se ingresa el número 6, se debería obtener una piramide con punta en 6.",
+      "code": "/src/exercises/3.js",
+      "verified": false
+    },
+    {
+      "id": 4,
+      "name": "Expresion Binaria",
+      "description": "Realizar un programa que pregunte al usuario un número y calcule su expresión binaria. El programa permitirá ingresar números hasta que el usuario ingrese el número cero. Para calcular la expresión binaria de un número decimal, se debe dividir por dos hasta llegar al resultado 1 y tomar los restos empezando por el último hasta el primero.",
+      "exampleOutput": "expresion binaria del nro decimal 8 es 1000/nexpresion binaria del nro decimal 11 es 1011",
+      "code": "/src/exercises/4.js",
+      "verified": false
+    },
+    {
+      "id": 5,
+      "name": "Fibonacci",
+      "description": "Realizar un programa que pregunte al usuario un número y calcule el valor de su posición en la serie de Fibonacci. La serie de Fibonacci se define de la siguiente manera: Para el número 0 el resultado es 0 (el valor de la posición cero es cero) y para el 1 es 1, y para el resto de los números, el resultado es la suma de los dos números anteriores en la serie. Por ejemplo el valor en la serie para el número 2 es 1 ya que sumo los dos números anteriores en la lista (0 y 1), el de 6 es 8 debido a que los dos números que lo anteceden en la serie son 5 y 3, cuya suma es 8, y el de 13 es 233 porque 89 + 144 = 233.",
+      "exampleOutput": "F0,  F1,  F2,  F3,  F4,   F5,  F6,   F7,   F8,   F9,  F10,  F11,   F12,   F13  ... /n0    1    1    2    3    5    8     13    21    34    55    89    144    233  ...",
+      "code": "/src/exercises/5.js",
+      "verified": true
+    },
+    {
+      "id": 6,
+      "name": "Piramide",
+      "description": "Realice un algoritmo que permita al usuario ingresar un número por teclado y muestre por pantalla una pirámide de la siguiente forma, en la cual la fila correspondiente al número ingresado sea la que tiene la cúspide.",
+      "exampleOutput": "Por ejemplo si se ingresa el número 6, se debería obtener una piramide con punta en 6.",
+      "code": "/src/exercises/6.js",
+      "verified": true
+    },
+    {
+      "id": 7,
+      "name": "Caja Registradora con Descuentos",
+      "description": "Una tienda tiene la siguiente promoción de descuento: para camisas 5%, pantalones 8% y zapatos 10%.  La caja registradora va registrando productos y precios hasta que se ingresa el número 0 en tipo de producto para terminar la compra.  Al finalizar el ingreso de datos debe realizarse un descuento extra si la compra resulta entre $1000 y $2000 del 10%, entre $2000 y $4000 del 20% y si es superior a $4000 30%. Por último informar el producto y el monto de la venta máxima.",
+      "exampleOutput": "",
+      "code": "/src/exercises/7.js",
+      "verified": false
+    }
+  ]
+}
